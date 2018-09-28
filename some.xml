@@ -1,0 +1,86 @@
+<message xmlns="jabber:client" from="pubsub.hq-uccx.abc.inc" to="agent001@hq-uccx.abc.inc" id="CfbCrO5U">
+  <event xmlns="http://jabber.org/protocol/pubsub#event">
+    <items node="/finesse/api/User/Agent001">
+      <item id="02f5483a-957a-42f8-9ed1-bce73a3838a0156">
+        <notification xmlns="http://jabber.org/protocol/pubsub">
+          <Update>
+            <data>
+              <user>
+                <dialogs>/finesse/api/User/Agent001/Dialogs</dialogs>
+                <extension>6001</extension>
+                <firstName>Jane</firstName>
+                <lastName>Doe</lastName>
+                <loginId>Agent001</loginId>
+                <loginName>Agent001</loginName>
+                <mediaType>1</mediaType>
+                <pendingState></pendingState>
+                <reasonCodeId>-1</reasonCodeId>
+                <roles>
+                  <role>Agent</role>
+                  <role>Supervisor</role>
+                </roles>
+                <settings>
+                  <wrapUpOnIncoming></wrapUpOnIncoming>
+                </settings>
+                <state>NOT_READY</state>
+                <stateChangeTime>2018-09-28T07:08:15.804Z</stateChangeTime>
+                <teamId>2</teamId>
+                <teamName>Team_IT_Tier1</teamName>
+                <teams>
+                  <Team>
+                    <id>2</id>
+                    <name>Team_IT_Tier1</name>
+                    <uri>/finesse/api/Team/2</uri>
+                  </Team>
+                </teams>
+                <uri>/finesse/api/User/Agent001</uri>
+              </user>
+            </data>
+            <event>PUT</event>
+            <requestId>5941ef8f-2ff3-4450-83ce-8ced0ab76bbb</requestId>
+            <source>/finesse/api/User/Agent001</source>
+          </Update>
+        </notification>
+      </item>
+    </items>
+  </event>
+</message>
+
+<Update>
+  <data>
+    <user>
+      <dialogs>/finesse/api/User/Agent001/Dialogs</dialogs>
+      <extension>6001</extension>
+      <firstName>Jane</firstName>
+      <lastName>Doe</lastName>
+      <loginId>Agent001</loginId>
+      <loginName>Agent001</loginName>
+      <mediaType>1</mediaType>
+      <pendingState></pendingState>
+      <reasonCodeId>-1</reasonCodeId>
+      <roles>
+        <role>Agent</role>
+        <role>Supervisor</role>
+      </roles>
+      <settings>
+        <wrapUpOnIncoming></wrapUpOnIncoming>
+      </settings>
+      <state>NOT_READY</state>
+      <stateChangeTime>2018-09-28T07:08:15.804Z</stateChangeTime>
+      <teamId>2</teamId>
+      <teamName>Team_IT_Tier1</teamName>
+      <teams>
+        <Team>
+          <id>2</id>
+          <name>Team_IT_Tier1</name>
+          <uri>/finesse/api/Team/2</uri>
+        </Team>
+      </teams>
+      <uri>/finesse/api/User/Agent001</uri>
+    </user>
+  </data>
+  <event>PUT</event>
+  <requestId>5941ef8f-2ff3-4450-83ce-8ced0ab76bbb</requestId>
+  <source>/finesse/api/User/Agent001</source>
+</Update>
+

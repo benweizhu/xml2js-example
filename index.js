@@ -1,0 +1,5 @@
+var parseString = require('xml2js').parseString;
+var xml = "<Update>  <data>    <user>      <dialogs>/finesse/api/User/Agent001/Dialogs</dialogs>      <extension>6001</extension>      <firstName>Jane</firstName>      <lastName>Doe</lastName>      <loginId>Agent001</loginId>      <loginName>Agent001</loginName>      <mediaType>1</mediaType>      <pendingState></pendingState>      <roles>        <role>Agent</role>        <role>Supervisor</role>      </roles>      <settings>        <wrapUpOnIncoming></wrapUpOnIncoming>      </settings>      <state>READY</state>      <stateChangeTime>2018-09-28T07:22:46.146Z</stateChangeTime>      <teamId>2</teamId>      <teamName>Team_IT_Tier1</teamName>      <teams>        <Team>          <id>2</id>          <name>Team_IT_Tier1</name>          <uri>/finesse/api/Team/2</uri>        </Team>      </teams>      <uri>/finesse/api/User/Agent001</uri>    </user>  </data>  <event>PUT</event>  <requestId>f8014152-2ee2-4268-9d67-0802ca7f8ab5</requestId>  <source>/finesse/api/User/Agent001</source></Update>"
+parseString(xml, function (err, result) {
+    console.dir(result);
+});
